@@ -1,0 +1,23 @@
+{
+  "name": "practice",
+  "version": "1.0.0",
+  "description": "practice the leetcode by javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DKMonster/leetcode-js.git"
+  },
+  "keywords": [
+    "LeetCode",
+    "JavaScript"
+  ],
+  "author": "DKxMonster",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DKMonster/leetcode-js/issues"
+  },
+  "homepage": "https://github.com/DKMonster/leetcode-js#readme"
+}
