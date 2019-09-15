@@ -62,5 +62,6 @@ jest LC1_TwoSum --watch
 ```
 
 ### Check List
-- Two Sum (Done)
-- Add Two Numbers (Done)
+- #1 Two Sum (Done)
+- #2 Add Two Numbers (Done)
+- #3 Longest Substring Without Repeating Characters (Done))
