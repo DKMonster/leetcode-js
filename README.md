@@ -60,3 +60,7 @@ Test Project
 ```
 jest LC1_TwoSum --watch
 ```
+
+### Check List
+- Two Sum (Done)
+- Add Two Numbers (Test Problem)
