@@ -1,0 +1,1 @@
+const funcLC = require('./index');
