@@ -29,27 +29,27 @@ Check remote version
 ```bash
 nvm ls-remote
 
-nvm ls-remote 10
+nvm ls-remote 20
 ```
 
 Install NodeJS Version
 
 ```bash
-nvm install 10.15.3
+nvm install 20.9.0
 ```
 
 Set default version
 
 ```bash
-nvm alias default 10.15.3
+nvm alias default 20.9.0
 
-nvm alias [name] 10.15.3
+nvm alias [name] 20.9.0
 ```
 
 Use the version
 
 ```bash
-nvm use 10.15.3
+nvm use 20.9.0
 
 nvm use [name]
 ```
@@ -57,25 +57,21 @@ nvm use [name]
 ### Install Test package
 
 ```bash
-npm install jest -g
+yarn add --dev jest
 ```
 
 ### Run Test
 
-Go to LC folder
-
-```bash
-cd practice/
-```
-
 Test Project
 
 ```bash
-jest LC1_TwoSum --watch
+yarn test practice/LC1_TwoSum
 ```
 
 ### Check List
 
 - #1 Two Sum (Done)
 - #2 Add Two Numbers (Done)
-- #3 Longest Substring Without Repeating Characters (Done))
+- #3 Longest Substring Without Repeating Characters (Done)
+- #4 Longest Palindrome (Done)
+- #5 Palindrome Number (WIP)
