@@ -36,7 +36,7 @@ function addTwoNumbers(l1, l2, plus = 0) {
     ans = new ListNode(num);
   }
 
-  // 除果其中一方有值那需要預先給值0，避免錯誤
+  // 如果其中一方有值那需要預先給值0，避免錯誤
   if ((l1.next === null && l2.next !== null)) l1.next = new ListNode(0);
   if ((l1.next !== null && l2.next === null)) l2.next = new ListNode(0);
 
